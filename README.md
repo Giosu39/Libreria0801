@@ -1,6 +1,6 @@
 # Project summary
 
-# Packages, enums & classes:
+## Packages, enums & classes:
 
 ```java
 package model.enums;
