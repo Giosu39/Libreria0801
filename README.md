@@ -1,18 +1,43 @@
-## Getting Started
+# Resoconto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Classi, enums e packages creati:
 
-## Folder Structure
+```java
+package model.enums;
 
-The workspace contains two folders by default, where:
+enum Genre;
+enum Language;
+enum Nation; 
+enum Publishing House;
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```java
+package model.people;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+interface Person;
+abstract class Author;
+class Director extends Author;
+class Writer extends Author;
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```java
+package model.sellable;
 
-## Dependency Management
+interface Opera;
+abstract class Product;
+class DVD extends Product;
+class Book extends Product;
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```java
+package model.warehouse;
+
+class Warehouse; // Base dati
+```
+
+```java
+package model.warehouse.service;
+
+class Service; // Metodi per le query
+class Menu; // Interfaccia console per l'utente
+```
