@@ -1,6 +1,6 @@
-# Resoconto
+# Project summary
 
-# Classi, enums e packages creati:
+# Packages, enums & classes:
 
 ```java
 package model.enums;
@@ -8,7 +8,7 @@ package model.enums;
 enum Genre;
 enum Language;
 enum Nation; 
-enum Publishing House;
+enum PublishingHouse;
 ```
 
 ```java
@@ -32,12 +32,12 @@ class Book extends Product;
 ```java
 package model.warehouse;
 
-class Warehouse; // Base dati
+class Warehouse; // Database simulation
 ```
 
 ```java
 package model.warehouse.service;
 
-class Service; // Metodi per le query
-class Menu; // Interfaccia console per l'utente
+class Service; // Query simulation
+class Menu; // CLI
 ```
